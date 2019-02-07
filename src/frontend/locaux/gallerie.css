@@ -1,0 +1,73 @@
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+  font-family: 'PT Sans', Arial, Verdana;
+  background-color: #eee;
+}
+
+
+
+img {
+  display: inline-block;
+  width: 309px;
+  height: 242px;
+}
+
+.carousel {
+    width: 1114px;
+    height: 245px;
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0px solid #999;
+    box-shadow: 0 0 4px #000;
+    margin: 0 auto;
+    border-radius: 5px;
+  
+}
+
+.holder {
+  animation: carousel 25s linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+}
+.holder.hover {
+    animation-play-state: paused;
+  
+}
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  
+  50% {
+    transform: translateX(-100%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+.backlocaux{
+  background-color: aliceblue ;
+  padding: 5%;
+}
+.backlocaux h1{
+  text-align: center;
+  font-size: -webkit-xxx-large;
+}
+.backlocaux p{
+font-family: serif;
+text-align: center;
+font-size: large;
+font-style: unset;
+width: 36%;
+margin: auto;}
+
+.nettoyagelocaux{
+  display: flex;
+  justify-content: space-around
+
+}
